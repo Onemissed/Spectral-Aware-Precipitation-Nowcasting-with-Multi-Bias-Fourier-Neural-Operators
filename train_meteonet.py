@@ -71,7 +71,7 @@ def DoTrain(args):
     if args.model == 'earthformer':
         model_kwargs = load_earthformer_config('meteonet')
     else:
-        model_kwargs = load_model_config(args.model.lower(), 'config/sevir')
+        model_kwargs = load_model_config(args.model.lower(), 'config/meteonet')
         model_kwargs['args'] = args
     model = ModelClass(**model_kwargs).to(args.device)
     model = torch.nn.DataParallel(model)
