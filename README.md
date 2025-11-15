@@ -7,7 +7,7 @@ This repository contains the full codebase for the paper:
 The project implements:
 
 1. **Our proposed model**  
-   - Multi-Scale Encoder + Multi-Bias Fourier Neural Operator architecture (m-AFNO)
+   - Multi-Bias Fourier Neural Operator + Local CNN branch architecture (m-AFNO)
 
 2. **Baseline models** for spatiotemporal radar forecasting:  
    - ConvLSTM  
